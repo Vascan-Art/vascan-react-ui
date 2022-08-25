@@ -1,7 +1,6 @@
 import Icon from '@mdi/react';
 import classNames from 'classnames';
 import React from 'react';
-import { FormSize, ButtonVariant, Disabled } from '../../themes';
 import { IIconButton } from './IconButton';
 
 export const IconButton: React.FC<IIconButton> = ({

@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import React, { Fragment} from 'react';
+import React, { Fragment } from 'react';
 import { IModal } from './Modal';
 import { Dialog, Transition } from '@headlessui/react';
 import { IconButton } from '../iconButton';
@@ -51,9 +51,7 @@ export const Modal: React.FC<IModal> = ({
                     size="20"
                     className="absolute -top-12 right-0"
                     onClick={closeModal}
-                  >
-                    close
-                  </IconButton>
+                  ></IconButton>
                   <Dialog.Title
                     as="h3"
                     className="text-lg font-medium leading-6 text-black"
