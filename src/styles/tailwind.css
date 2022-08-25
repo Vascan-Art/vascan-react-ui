@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Philosopher:wght@400;700&display=swap');
+
+@tailwind base;
+
+/* Customisable Section */
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+    @apply text-black;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Philosopher', sans-serif;
+    @apply text-black;
+  }
+}
+/* END Customisable Section */
+
+@tailwind components;
+@tailwind utilities;
