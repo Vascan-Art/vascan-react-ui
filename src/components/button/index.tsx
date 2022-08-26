@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React from 'react';
 import { FormSize, ButtonVariant, Disabled, ButtonClasses } from '../../themes';
-import { IButton } from './button';
+import { IButton } from './Button';
 
 export const Button: React.FC<IButton> = ({
   className = '',
