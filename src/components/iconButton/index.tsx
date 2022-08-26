@@ -1,7 +1,7 @@
 import Icon from '@mdi/react';
 import classNames from 'classnames';
 import React from 'react';
-import { IIconButton } from './IconButton';
+import { IIconButton } from './iconButton';
 
 export const IconButton: React.FC<IIconButton> = ({
   className = '',
